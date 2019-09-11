@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background-color:white;
+    padding: 2vh;
+    max-width: 50%;
+}
+
+nav h1 {
+    color: rgb(224, 164, 161);
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.title-slide {
+    display: flex;
+    height: 100vh;
+    max-width: auto;
+}
+
+.slide-text-title {
+    max-width: 50%;
+    justify-content: center;
+    padding: 8vh;
+    z-index: 1;
+    max-height: 100vh;
+}
+
+.slide-image-title {
+    display: block;
+    max-width: 50%;
+    overflow: hidden;
+    object-position: center center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100vh;
+    background-image: url("../images/190815_Italy-trip_1002331.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.slide-image-title img {
+    display: block;
+    position: relative;
+    left: -40vw;
+    top: -70vh;
+    transform: scale(0.67);
+}
