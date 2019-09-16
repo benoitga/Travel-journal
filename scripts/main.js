@@ -1,27 +1,27 @@
-const waypoint = new Waypoint({
-    element: document.querySelector('h1:nth-of-type(1)'),
-    handler: (direction) => {
-        document.body.style.backgroundColor = 'white';
-      }
-  });
+const imagePlaceholder = document.querySelector(".slide-image-title")
 
 const waypoint2 = new Waypoint({
     element: document.querySelector('h2#slide-1-trigger'),
     handler: (direction) => {
-        document.body.style.backgroundColor = 'blue';
+      console.log({direction})
+      if ( direction === 'down') {
+        imagePlaceholder.className = 'slide-image-title image-1'
+      } else {
+        imagePlaceholder.className = 'slide-image-title'
       }
+      // imagePlaceholder.classList.add("image-1")
+    }
   });
 
-const waypoint3 = new Waypoint({
+  const waypoint3 = new Waypoint({
     element: document.querySelector('h2#slide-2-trigger'),
     handler: (direction) => {
-        document.body.style.backgroundColor = 'red';
+      console.log({direction})
+      if ( direction === 'down') {
+        imagePlaceholder.className = 'slide-image-title image-2'
+      } else {
+        imagePlaceholder.className = 'slide-image-title'
       }
-  });
-
-  const waypoint4 = new Waypoint({
-    element: document.querySelector('h2#slide-3-trigger'),
-    handler: (direction) => {
-        document.body.style.backgroundColor = 'pink';
-      }
+      // imagePlaceholder.classList.add("image-1")
+    }
   });

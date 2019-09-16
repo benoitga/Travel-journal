@@ -51,8 +51,12 @@ h2 {
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
+    transition: 0.8s;
+}
+.image-1 {
+    background-image: url("../images/190815_Italy-trip_1002299.jpg")
 }
 
-/* .slide-image-title {
-    background-image: url("../images/190815_Italy-trip_1002291.jpg");
-} */
+.image-2 {
+    background-image: url("../images/190822_Italy-trip_1002771.jpg")
+}
