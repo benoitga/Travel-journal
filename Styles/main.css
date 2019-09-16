@@ -13,6 +13,13 @@ nav h1 {
     color: rgb(224, 164, 161);
     justify-content: center;
     margin: 0 auto;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 400;
 }
 
 .title-slide {
@@ -21,19 +28,15 @@ nav h1 {
     max-width: auto;
 }
 
-.slide-text-title {
+.slide-text-5050-split {
     max-width: 50%;
+    height: 100vh;
     justify-content: center;
     padding: 8vh;
     z-index: 1;
-    max-height: 100vh;
 }
 
 .slide-image-title {
-    display: block;
-    max-width: 50%;
-    overflow: hidden;
-    object-position: center center;
     position: fixed;
     top: 0;
     right: 0;
@@ -46,10 +49,6 @@ nav h1 {
     background-repeat: no-repeat;
 }
 
-.slide-image-title img {
-    display: block;
-    position: relative;
-    left: -40vw;
-    top: -70vh;
-    transform: scale(0.67);
-}
+/* .slide-image-title {
+    background-image: url("../images/190815_Italy-trip_1002291.jpg");
+} */
