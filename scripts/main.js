@@ -6,21 +6,21 @@ const waypoint = new Waypoint({
   });
 
 const waypoint2 = new Waypoint({
-    element: document.querySelector('h2:nth-of-type(1)'),
+    element: document.querySelector('h2#slide-1-trigger'),
     handler: (direction) => {
         document.body.style.backgroundColor = 'blue';
       }
   });
 
 const waypoint3 = new Waypoint({
-    element: document.querySelector('h2:nth-of-type(2)'),
+    element: document.querySelector('h2#slide-2-trigger'),
     handler: (direction) => {
         document.body.style.backgroundColor = 'red';
       }
   });
 
   const waypoint4 = new Waypoint({
-    element: document.querySelector('h2:nth-of-type(3)'),
+    element: document.querySelector('h2#slide-3-trigger'),
     handler: (direction) => {
         document.body.style.backgroundColor = 'pink';
       }
